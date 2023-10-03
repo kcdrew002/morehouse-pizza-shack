@@ -6,7 +6,7 @@ import { getAddress, clearAddress } from "../stores/userInfo/addressSlice";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from 'react';
 import Button from "./elements/Button";
-
+// Test card info, 4242 4242 4242 4242 exp 11/23 CVV 123 ZIP 10010
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY);
 
 export const StripeWrapper = () => {
