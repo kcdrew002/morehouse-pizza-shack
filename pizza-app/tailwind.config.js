@@ -9,8 +9,7 @@ module.exports = {
         sans: ['ClashDisplay-Regular', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        tomato: '##800020',
-        marigold: '#ffbe0b',
+        burgundy: '#800020',
       },
     },
   },
